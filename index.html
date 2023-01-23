@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="" href="style.css">
+    <title>Cash Register App</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cash Register App</h1>
+        <p>Enter the bill amount and cash given by customer and know minimum number of notes to return.</p>
+        <label for="bill-input">Bill Amount:</label>
+        <input type="number" name="" id="bill-input" min="0">
+        <label for="cash-input">Cash Amount:</label>
+        <input type="number" name="" id="cash-input">
+        <p class="error-msg"></p>
+        <button id="btn-check">Check</button>
+        <table>
+            <caption>Return Change</caption>
+            <tr>
+                <th>No. of Notes</th>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+                <td class="no-of-notes"></td>
+            </tr>
+            <tr>
+                <th>Notes</th>
+                <td>2000</td>
+                <td>500</td>
+                <td>200</td>
+                <td>100</td>
+                <td>50</td>
+                <td>20</td>
+                <td>10</td>
+                <td>5</td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+
+        </table>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
